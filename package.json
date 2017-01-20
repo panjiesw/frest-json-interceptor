@@ -1,0 +1,48 @@
+{
+  "name": "frest-json-interceptor",
+  "version": "0.1.0-dev.0",
+  "description": "A set of JSON interceptors for Frest",
+  "files": [
+    "es6",
+    "lib"
+  ],
+  "license": "MIT",
+  "main": "lib/index",
+  "module": "es6/index",
+  "jsnext:main": "es6/index",
+  "types": "lib/index.d.ts",
+  "homepage": "https://github.com/panjiesw/frest-json-interceptor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panjiesw/frest-json-interceptor.git"
+  },
+  "author": {
+    "name": "Panjie Setiawan Wicaksono",
+    "email": "panjie@panjiesw.com",
+    "url": "http://panjiesw.life"
+  },
+  "bugs": {
+    "url": "https://github.com/panjiesw/frest-json-interceptor/issues"
+  },
+  "keywords": [
+    "rest",
+    "client",
+    "browser",
+    "fetch",
+    "whatwg-fetch",
+    "frest",
+    "json",
+    "interceptor"
+  ],
+  "devDependencies": {
+    "@types/node": "^7.0.0",
+    "@types/object-assign": "^4.0.30",
+    "@types/whatwg-fetch": "^0.0.33",
+    "frest": "^0.1.0",
+    "tslint": "^4.3.1",
+    "typescript": "^2.1.5"
+  },
+  "peerDependencies": {
+    "frest": "^0.1.0"
+  }
+}
