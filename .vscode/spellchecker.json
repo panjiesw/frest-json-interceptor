@@ -1,0 +1,22 @@
+{
+    "language": "en_US",
+    "ignoreWordsList": [
+        "ButtonLink",
+        "IconButtonLink",
+        "onlyActiveOnIndex",
+        "vscode",
+        "awcache",
+        "pids",
+        "wscript",
+        "jspm",
+        "repl"
+    ],
+    "documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext"
+    ],
+    "ignoreRegExp": [],
+    "ignoreFileExtensions": [],
+    "checkInterval": 5000
+}
